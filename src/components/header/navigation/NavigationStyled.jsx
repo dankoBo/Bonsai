@@ -8,7 +8,6 @@ const StyledAppBar = styled(AppBar)`
 		width: 1180px;
 		height: 80px;
 		margin: 0 auto;
-		border: 1px solid red;
 		background-color: transparent;
 	}
 `
