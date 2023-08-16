@@ -1,22 +1,27 @@
-import {useState} from 'react'
-import Button from '@mui/material/Button';
-import Menu from '@mui/material/Menu';
+import { useState } from 'react'
+// import Button from '@mui/material/Button';
+import { MenuStyled, ButtonStyled } from './DropDownMenuStyled'
 import MenuItem from '@mui/material/MenuItem';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
 
 function DropDownMenu() {
 	const [anchorEl, setAnchorEl] = useState(null);
+	const [isArrowDown, setIsArrowDown] = useState(false);
 	const open = Boolean(anchorEl);
 	const handleClick = (event) => {
 		setAnchorEl(event.currentTarget);
+		setIsArrowDown(!isArrowDown);
 	};
 
 	const handleClose = () => {
 		setAnchorEl(null);
+		setIsArrowDown(!isArrowDown);
 	};
 
 	return (
 		<div>
-			<Button
+			<ButtonStyled
 				id="basic-button"
 				aria-controls={open ? 'basic-menu' : undefined}
 				aria-haspopup="true"
@@ -24,8 +29,9 @@ function DropDownMenu() {
 				onClick={handleClick}
 			>
 				Product
-			</Button>
-			<Menu
+				{isArrowDown ? <ArrowDropDownIcon /> : <ArrowDropUpIcon />}
+			</ButtonStyled>
+			<MenuStyled
 				id="basic-menu"
 				anchorEl={anchorEl}
 				open={open}
@@ -41,7 +47,7 @@ function DropDownMenu() {
 				<MenuItem onClick={handleClose}>Item 5</MenuItem>
 				<MenuItem onClick={handleClose}>Item 6</MenuItem>
 				<MenuItem onClick={handleClose}>Item 7</MenuItem>
-			</Menu>
+			</MenuStyled>
 		</div>
 	);
 }
