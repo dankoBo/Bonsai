@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import AppBar from '@mui/material/AppBar'
-import Box from '@mui/material/Box'
 
 const StyledAppBar = styled(AppBar)`
 	&.MuiAppBar-root {
