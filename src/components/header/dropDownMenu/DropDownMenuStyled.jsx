@@ -5,12 +5,13 @@ import Button from '@mui/material/Button';
 const MenuStyled = styled(Menu)`
 	&.MuiList-root, .MuiMenu-list {
 		width: 120px;
+		color: #4C4D5F;
 	}
 `
 
 const ButtonStyled = styled(Button)`
 	&.MuiButtonBase-root {
-		color: black;
+		color: #4C4D5F;
 	}
 `
 

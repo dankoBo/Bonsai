@@ -1,15 +1,14 @@
-import Button from '@mui/material/Button';
-import ButtonsWrapper from './AuthButtonsStyled'
+import { ButtonsWrapper, ButtonStyled } from './AuthButtonsStyled'
 
 const AuthButtons = () => {
 	return (
 		<ButtonsWrapper>
-			<Button variant="outlined">
+			<ButtonStyled variant="outlined">
 				Log In
-			</Button>
-			<Button variant="outlined">
+			</ButtonStyled>
+			<ButtonStyled variant="outlined">
 				Start Free
-			</Button>
+			</ButtonStyled>
 		</ButtonsWrapper>
 	);
 }

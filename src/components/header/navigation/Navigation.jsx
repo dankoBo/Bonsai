@@ -1,16 +1,16 @@
 import InteractiveSection from '../interactiveSection/InteractiveSection';
 import Logo from '../logo/Logo';
-import { StyledAppBar, StyledBox } from './NavigationStyled'
+import { StyledAppBar, StyledBarWrapper } from './NavigationStyled'
 
 
 
 function Navigation() {
 	return (
 			<StyledAppBar>
-				<StyledBox>
+				<StyledBarWrapper>
 					<Logo />
 					<InteractiveSection />
-				</StyledBox>
+				</StyledBarWrapper>
 			</StyledAppBar>
 	);
 }
