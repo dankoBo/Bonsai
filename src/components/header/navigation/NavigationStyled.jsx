@@ -4,9 +4,6 @@ const StyledAppBar = styled.div`
 	position: relative;
 	width: 1180px;
 	height: 80px;
-	margin: 0 auto;
-	background-color: transparent;
-	
 `
 
 const StyledBarWrapper = styled.div`
