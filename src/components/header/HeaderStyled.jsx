@@ -4,7 +4,7 @@ const HeaderWrapper = styled.div`
 	height: 780px;
 	width: 1180px;
 	border: 1px solid red;
-	margin: 0 auto;
+	margin: 0 auto 65px;
 `
 
 export default HeaderWrapper
