@@ -1,10 +1,9 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
-	height: 423px;
-	display: flex;
-	justify-content: space-between;
-	text-align: center;
+	width: 1065px;
+	height: 640px;
+	margin: 0 auto 207px;
+	border: 1px solid red;
 `
-
 export default Wrapper

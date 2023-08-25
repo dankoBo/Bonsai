@@ -1,11 +1,11 @@
-function FlowChart() {
+import ChartTitleStyled from './FlowChartStyled'
 
-
+function FlowChart(props) {
 	return (
 		<div>
-			<h2>TITLE</h2>
+			<ChartTitleStyled>{props.title}</ChartTitleStyled>
 			<div>
-				<img src="/src/assets/images/about/about_without_bonsai.png" alt="without bonsai" />
+				<img src={props.chart} alt="chart" />
 			</div>
 		</div>
 	);

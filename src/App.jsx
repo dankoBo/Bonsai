@@ -2,6 +2,7 @@ import './App.css'
 import Box from '@mui/material/Box';
 import Header from './components/header/Header';
 import About from './components/about/About';
+import Products from './components/products/Products';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
 			
 			<Header />
 			<About />
+			<Products />
 		</Box>
 	)
 }
