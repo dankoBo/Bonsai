@@ -3,6 +3,7 @@ import Box from '@mui/material/Box';
 import Header from './components/header/Header';
 import About from './components/about/About';
 import Products from './components/products/Products';
+import Statistic from './components/statistic/Statistic';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
 			<Header />
 			<About />
 			<Products />
+			<Statistic />
 		</Box>
 	)
 }
