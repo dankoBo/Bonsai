@@ -26,7 +26,7 @@ const ButtonTextStyled = styled.span`
 
 const MenuStyled = styled(Menu)`
 	&.MuiMenu-root {
-		margin: 0px 0 0 345px;
+		margin: -76px 0 0 345px;
 	}
 
 	& .MuiList-root {
