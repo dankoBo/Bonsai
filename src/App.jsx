@@ -5,6 +5,7 @@ import About from './components/about/About';
 import Products from './components/products/Products';
 import Statistic from './components/statistic/Statistic';
 import Team from './components/team/Team';
+import Advertising from './components/advertising/Advertising';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
 			<Products />
 			<Statistic />
 			<Team />
+			<Advertising />
 		</Box>
 	)
 }
