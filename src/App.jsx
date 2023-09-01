@@ -6,6 +6,7 @@ import Products from './components/products/Products';
 import Statistic from './components/statistic/Statistic';
 import Team from './components/team/Team';
 import Advertising from './components/advertising/Advertising';
+import Footer from './components/footer/Footer';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
 			<Statistic />
 			<Team />
 			<Advertising />
+			<Footer />
 		</Box>
 	)
 }
