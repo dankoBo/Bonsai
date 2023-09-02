@@ -7,4 +7,15 @@ const Wrapper = styled.div`
 	border: 1px solid red;
 `
 
-export default Wrapper
+const TitleStyled = styled.h4`
+	width: 492px;
+	margin: 0 auto;
+	color: #4C4D5F;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 44px;
+	font-style: normal;
+	font-weight: 400;
+`
+
+export { Wrapper, TitleStyled }
