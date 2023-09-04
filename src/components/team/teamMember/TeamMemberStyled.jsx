@@ -18,24 +18,29 @@ const MemberTextStyled = styled.p`
 	font-size: 21px;
 	font-style: normal;
 	font-weight: 400;
+	text-align: left;
 `
 
 const MemberNameStyled = styled.h4`
-	width: 103px;
+	width: 123px;
+	margin: 0;
 	color: #4C4D5F;
 	font-family: Roboto;
 	font-size: 19px;
 	font-style: normal;
 	font-weight: 700;
+	text-align: left;
 `
 
 const MemberSeniority = styled.h4`
-	width: 191px;
+	width: 220px;
+	margin: 0;
 	color: rgba(76, 77, 95, 0.72);
 	font-family: Roboto;
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 400;
+	text-align: left;
 `
 
 export { ContainerStyled, ImageStyled, MemberTextStyled, MemberNameStyled, MemberSeniority }
