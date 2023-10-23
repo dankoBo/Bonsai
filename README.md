@@ -1,8 +1,19 @@
-# React + Vite
+# Bonsai
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React, MUI.
 
-Currently, two official plugins are available:
+Даний проект був створений для вивчення та покращення навичок написання коду.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Для запуску проекту напишіть команди:
+
+  - yarn - для встановлення залежностей;
+  - yarn dev - для запуску сервера;
+
+---------------------------------------------------------------------------------------
+
+This project was created for learning and improving coding skills.
+
+To run the project, use the following commands:
+
+   - yarn - for installing dependencies.
+   - yarn dev - to start the server.
